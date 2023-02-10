@@ -1,0 +1,105 @@
+*{
+	margin: 0%;
+	/*border: 1px solid red;*/
+	font-family: sans-serif;
+}
+.navbar img{
+	vertical-align: middle;
+	margin-left: 3%;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+	margin-left:2%; 
+}
+#company-name{
+	font-size: 2rem;
+}
+#company-name span{
+	color:orange;
+}
+#company-name+a{
+	color: orange;
+	margin-left: 9%;
+}
+.sec2{
+	background-color: rgba(239,239,239,0.6);
+	display: flex;
+	padding: 8% 13%;
+}
+.shapes{
+	width: 70%;
+	position: relative;
+}
+
+.rectangle{
+	background-color:rgba(0,0,0,0.2);
+	width:75%;
+	padding:22% 8%;
+}
+.small-circle{
+	width: 14%;
+	padding: 4% 0%;
+	position: absolute;
+	top: -8%;
+	left: 60%;
+	background-color: black;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+}
+.large-circle{
+	width: 20%;
+	text-align: center;
+	padding: 7% 0%;
+	position: absolute;
+	background-color: orange;
+	border-radius: 50%;
+	color: white;
+	top:10%;
+	left:70%;
+}
+.vps h1{
+	margin-bottom: 4%;
+}
+.vpn{
+	font-size: 0.8rem;
+	line-height: 1.8;
+}
+.get{
+	background-color: orange;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+	width: fit-content;
+	cursor: pointer;
+	margin-top: 8%;
+	border: none;
+	padding:3% 5%;
+}
+hr{
+	width: 50%;
+	background-color: : orange;
+}
+@media(min-width: 1366px){
+	#company-name+a{
+		margin-left: 12%;
+	}
+	.small-circle{
+		width: 11%;
+		padding: 3.5% 0%;
+	}
+	.largr-circle{
+		width:14%;
+		padding:4% 0%;
+		top:15%;
+	}
+}
+@media(max-width:1000px){
+	.navbar a{
+		font-size: 0.8em;
+	}
+	company-name{
+		font-size:1.5em;
+	}
+}
